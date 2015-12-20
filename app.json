@@ -1,0 +1,21 @@
+{
+  "name": "weather-bot",
+  "description": "Slack Bot written in Go",
+  "keywords": [
+    "go",
+    "slack"
+  ],
+  "image": "heroku/go",
+  "mount_dir": "src/github.com/sger/weather-bot",
+  "website": "",
+  "repository": "https://github.com/sger/weather-bot",
+   "env": {
+     "SLACK_BOT_TOKEN": {
+       "description": "See https://<YOUR ORG>.slack.com/services/new/bot",
+       "value": "xoxb-17069491266-In0ND6Fxc49p05umTqr2SDdN"
+     },
+     "GO15VENDOREXPERIMENT": {
+       "value": "1"
+     }
+   }
+}
