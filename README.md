@@ -4,7 +4,7 @@ First create a new bot in Slack more info here [https://api.slack.com/bot-users]
 
 Usage:
 
-create a go file test_wb.go
+create a go file with name test_wb.go
 
 ```
 package main
