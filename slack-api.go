@@ -3,7 +3,7 @@ package wb
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/sger/weather-bot/Godeps/_workspace/src/golang.org/x/net/websocket"
+	"golang.org/x/net/websocket"
 	"io/ioutil"
 	"log"
 	"net/http"

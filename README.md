@@ -70,6 +70,7 @@ and run it with
 $ go build test_wb.go
 $ ./test_wb my-bot-token
 ```
+open up your slack client and send a message to you bot myBot: london press enter to see the reply
 
 
 
