@@ -19,10 +19,10 @@ type RtmStartResponse struct {
 	Ok    bool         `json:"ok"`
 	Error string       `json:"error"`
 	Url   string       `json:"url"`
-	Self  responseSelf `json:"self"`
+	Self  SelfResponse `json:"self"`
 }
 
-type responseSelf struct {
+type SelfResponse struct {
 	Id   string `json:"id"`
 	Name string `json:"name"`
 }
