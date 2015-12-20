@@ -4,6 +4,8 @@ First create a new bot in Slack more info here [https://api.slack.com/bot-users]
 
 Usage:
 
+create a go file test_wb.go
+
 ```
 package main
 
@@ -62,5 +64,12 @@ func getWeather(city string) string {
 	return fmt.Sprintf("Temperature for today\n Kelvin: %.2fK | Celsius: %.2f°C | Fahrenheit: %.2f°F", f.Info.Temp, f.Info.Temp-273.15, f.Info.Temp*9/5-459.67)
 }
 ```
+
+and run it with
+```
+$ go build test_wb.go
+$ ./test_wb my-bot-token
+```
+
 
 
